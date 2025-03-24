@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/Steel_Construction_Boom_Realistic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #f1c40f;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.register a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #27ae60;
+}
